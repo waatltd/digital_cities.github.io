@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>HTML prototype</title>
+    <meta name="description" content="Fronthack page's HTML prototype">
+
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+
+  <body>
+<header class="layout-header">
+  <div class="container layout-header__container">
+    <div class="layout-header__logo">
+      <a href="/" class="logo" title="Home">
+        <span class="logo__main">Digital</span>
+        <span class="logo__sec">Cities</span>
+      </a>
+    </div>
+    <div class="layout-header__menu">
+      <nav class="nav-horizontal">
+        <a class="nav-horizontal__link" href="about.html">About</a>
+        <a class="nav-horizontal__link" href="call.html">Call for Expressions  of Interest</a>
+        <a class="nav-horizontal__link" href="events.html">Events</a>
+        <!-- <a class="nav-horizontal__link" href="blueprint.html">Blueprint</a> -->
+        <a class="nav-horizontal__link" href="digital-library.html">Digital library</a>
+      </nav>
+    </div>
+    <div class="layout-header__user">
+      <nav class="nav-user">
+        <a class="nav-user__link" href="#">Login</a>
+        <a class="nav-user__link" href="#">Register</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<div class="layout-heading layout-heading--big">
+  <div class="layout-heading__container">
+    <h2>About</h2>
+    <p>Do you want to make your city more liveable, more productive, and more innovative? Do you want to put your city on the map as a beacon for future economic growth and improved quality of life? </p>
+  </div>
+</div>
+
+<div class="layout-about">
+  <div class="container">
+    <div class="layout-about__inner">
+      <p>Digital Cities is launched by the European Commission to help ignite industrial modernisation across Europe from the bottom up. The initiative will take 15 cities through a tailored program of coaching and facilitation to develop and implement policies that will accelerate their progress on the digitalisation scale and allow them to take full advantage of the 4th industrial revolution.</p>
+      <p>Read on to find out how to participate in the program. </p>
+    </div>
+  </div>
+</div>
+
+<div class="designs designs--about"></div>
+
+<footer class="layout-footer">
+  <div class="layout-footer__container container">
+    <div class="layout-footer__menu">
+      <nav class="nav-horizontal">
+        <a class="nav-horizontal__link" href="#">About</a>
+        <a class="nav-horizontal__link" href="#">Call for Expressions  of Interest</a>
+        <a class="nav-horizontal__link" href="#">Events</a>
+        <!-- <a class="nav-horizontal__link" href="#">Blueprint</a> -->
+        <a class="nav-horizontal__link" href="#">Digital library</a>
+      </nav>
+    </div>
+    <div class="layout-footer__user">
+      <nav class="nav-user">
+        <a class="nav-user__link" href="#">Login</a>
+        <a class="nav-user__link" href="#">Register</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+    <script src="js/design-toggler.js"></script>
+    <!-- Carousel scripts -->
+    <script
+        src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/assets/owl.carousel.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/owl.carousel.min.js"></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        items: 1,
+        autoPlay: true,
+        nav: false
+      });
+    </script>
+    <!-- End of Carousel scripts -->
+  </body>
+</html>
