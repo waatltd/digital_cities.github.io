@@ -1,0 +1,22 @@
+// Section footer
+// --------------------------------------------------
+.layout-footer
+  padding: 25px 0
+  background-color: $brand-primary
+  *
+    // Make everything inside white!
+    color: #fff !important
+
+.layout-footer__container
+  display: flex
+  flex-direction: column
+  align-items: center
+  +breakpoint(tablet)
+    flex-direction: row
+
+.layout-footer__user
+  flex-grow: 1
+  text-align: right
+  margin-top: 15px
+  +breakpoint(tablet)
+    margin-top: 0

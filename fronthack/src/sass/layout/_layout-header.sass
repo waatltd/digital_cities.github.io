@@ -1,0 +1,31 @@
+// Section header
+// --------------------------------------------------
+.layout-header
+  padding: 20px 0
+  background-color: #fff
+
+.layout-header__container
+  display: flex
+  align-items: center
+  flex-wrap: wrap
+  +breakpoint(tablet)
+    flex-wrap: nowrap
+
+.layout-header__logo
+  min-width: 100%
+  padding-right: 30px
+  box-sizing: border-box
+  +breakpoint(tablet)
+    min-width: auto
+  +breakpoint(desktop)
+    min-width: 24.5%
+
+
+.layout-header__user
+  position: absolute
+  text-align: right
+  top: 11px
+  right: $outer-margin
+  +breakpoint(tablet)
+    position: static
+    flex-grow: 1

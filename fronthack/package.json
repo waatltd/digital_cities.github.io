@@ -1,0 +1,106 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "fronthack-repo",
+        "scope": null,
+        "escapedName": "fronthack-repo",
+        "name": "fronthack-repo",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/michal/Projects/digitalcities/app"
+    ]
+  ],
+  "_from": "fronthack-repo@latest",
+  "_id": "fronthack-repo@2.1.25",
+  "_inCache": true,
+  "_location": "/fronthack-repo",
+  "_nodeVersion": "6.9.5",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/fronthack-repo-2.1.25.tgz_1504515023884_0.6206253413110971"
+  },
+  "_npmUser": {
+    "name": "frontcraft",
+    "email": "michal@kokocinski.me"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "fronthack-repo",
+    "scope": null,
+    "escapedName": "fronthack-repo",
+    "name": "fronthack-repo",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/fronthack-repo/-/fronthack-repo-2.1.25.tgz",
+  "_shasum": "502a0b9b86dd04af6cde20315cc427ff905913c0",
+  "_shrinkwrap": null,
+  "_spec": "fronthack-repo",
+  "_where": "/Users/michal/Projects/digitalcities/app",
+  "author": {
+    "name": "Michal Kokocinski",
+    "email": "michal@kokocinski.me",
+    "url": "http://kokocinski.me"
+  },
+  "bugs": {
+    "url": "https://github.com/frontcraft/fronthack-repo/issues"
+  },
+  "dependencies": {},
+  "description": "Repository with a file structure, which is served by the Fronthack CLI",
+  "devDependencies": {
+    "flexboxgrid-sass": "^8.0.5",
+    "gulp": "~3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-mustache": "~2.3.0",
+    "gulp-rename": "~1.2.2",
+    "gulp-sass": "~3.1.0",
+    "gulp-server-livereload": "^1.9.2",
+    "gulp-watch": "~4.3.11"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "502a0b9b86dd04af6cde20315cc427ff905913c0",
+    "tarball": "https://registry.npmjs.org/fronthack-repo/-/fronthack-repo-2.1.25.tgz"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "gitHead": "66a8979116b2792037df405cb5fc38c94fe894cb",
+  "homepage": "http://fronthack.com",
+  "keywords": [
+    "css",
+    "sass",
+    "html",
+    "bem",
+    "smacss",
+    "ui",
+    "framework",
+    "styleguide",
+    "gulp"
+  ],
+  "license": "MIT",
+  "main": "gulpfile.js",
+  "maintainers": [
+    {
+      "name": "frontcraft",
+      "email": "michal@kokocinski.me"
+    }
+  ],
+  "name": "fronthack-repo",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frontcraft/fronthack-repo.git"
+  },
+  "scripts": {},
+  "version": "2.1.25"
+}

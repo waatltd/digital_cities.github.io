@@ -1,0 +1,38 @@
+// Section apply
+// --------------------------------------------------
+.layout-apply
+  background:
+    color: #d4e0e8
+    image: url('../images/jpg/sign_up_bg.jpg')
+    position: left
+    repeat: no-repeat
+    size: cover
+  padding: 40px 0 45px
+  +breakpoint(desktop)
+    padding: 80px 0 90px
+
+.layout-apply__container
+  +breakpoint(desktop)
+    display: flex
+    padding: 0 105px
+
+.layout-apply__title
+  color: $slate
+  text-align: center
+  font-size: 32px
+  font-weight: $black
+  max-width: 450px
+  margin: 0 auto 40px
+  +breakpoint(desktop)
+    text-align: right
+    margin: 40px 90px 50px 0
+
+.layout-apply__form
+  background-color: #fff
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.05)
+  padding: 55px 30px 35px
+  box-sizing: border-box
+  margin: 0 auto
+  max-width: 450px
+  +breakpoint(desktop)
+    min-width: 450px

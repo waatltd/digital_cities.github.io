@@ -1,0 +1,36 @@
+// Section about
+// --------------------------------------------------
+.layout-about
+  background-color: #fff
+  padding: 45px 0
+  text-align: center
+  +breakpoint(tablet)
+    text-align: left
+    padding: 90px 0 95px
+    background:
+      image: url('../images/jpg/about.jpg')
+      position: -620px 0
+      repeat: no-repeat
+      size: contain
+  +breakpoint(desktop)
+    background-position: calc(50% - 560px) 0
+
+.layout-about__inner
+  a
+    color: $brand-primary
+  +breakpoint(tablet)
+    margin-left: 300px
+  +breakpoint(desktop)
+    margin-left: 450px
+
+.layout-about--call
+  padding: 65px 0 25px
+  +breakpoint(tablet)
+    background:
+      image: url('../images/jpg/about-call.jpg')
+      position: -290px 0
+  +breakpoint(desktop)
+    background-position: calc(50% - 440px) 0
+  h2
+    font-size: 28px
+    margin-bottom: 40px

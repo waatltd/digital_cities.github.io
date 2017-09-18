@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>HTML prototype</title>
+    <meta name="description" content="Fronthack page's HTML prototype">
+
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+
+  <body>
+<header class="layout-header">
+  <div class="container layout-header__container">
+    <div class="layout-header__logo">
+      <a href="/" class="logo" title="Home">
+        <span class="logo__main">Digital</span>
+        <span class="logo__sec">Cities</span>
+      </a>
+    </div>
+    <div class="layout-header__menu">
+      <nav class="nav-horizontal">
+        <a class="nav-horizontal__link" href="about.html">About</a>
+        <a class="nav-horizontal__link" href="call.html">Call for Expressions  of Interest</a>
+        <a class="nav-horizontal__link" href="events.html">Events</a>
+        <!-- <a class="nav-horizontal__link" href="blueprint.html">Blueprint</a> -->
+        <a class="nav-horizontal__link" href="digital-library.html">Digital library</a>
+      </nav>
+    </div>
+    <div class="layout-header__user">
+      <nav class="nav-user">
+        <a class="nav-user__link" href="#">Login</a>
+        <a class="nav-user__link" href="#">Register</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<div class="owl-carousel owl-theme">
+  <div>
+    <img src="images/jpg/hero_bg.jpg" alt="" class="owl-bg"/>
+    <div class="owl-text">
+      <div class="owl-paragraph">
+        Your city could get a share of <span>1.5 million</span> additional jobs created across EU if all Member States were able to match the digital performance of the US
+      </div>
+      <!-- <a href="#" class="btn btn--white">More</a> -->
+    </div>
+  </div>
+  <div>
+    <img src="images/jpg/hero_bg.jpg" alt="" class="owl-bg"/>
+    <div class="owl-text">
+      <div class="owl-paragraph">
+        You could reduce the greenhouse gas emissions in your city by <span>30%</span>, reduce traffic by <span>10%</span>, and increase local GDP by <span>2%</span> through smart parking
+      </div>
+      <!-- <a href="#" class="btn btn--white">More</a> -->
+    </div>
+  </div>
+  <div>
+    <img src="images/jpg/hero_bg.jpg" alt="" class="owl-bg"/>
+    <div class="owl-text">
+      <div class="owl-paragraph">
+        You could help SMEs grow <span>2 to 3x</span> faster with the right digital solutions and infrastructure
+      </div>
+      <!-- <a href="#" class="btn btn--white">More</a> -->
+    </div>
+  </div>
+</div>
+
+<div class="layout-about">
+  <div class="container">
+    <div class="layout-about__inner">
+      <h2>About</h2>
+      <p>Do you want to make your city more liveable, more productive, and more innovative? Do you want to put your city on the map as a beacon for future economic growth and improved quality of life? </p>
+      <p>Then the European Commission wants to support you through the Digital Cities initiative.</p>
+      <a href="about.html" class="btn">More</a>
+    </div>
+  </div>
+</div>
+
+<div class="layout-call">
+  <div class="container">
+    <h2>Call for Expressions of Interest</h2>
+    <p>The European Commission is launching a Call for Expressions of Interest to select 15 European cities with low to medium levels of digital maturity that will receive policy advice, coaching and support to speed up their digital transformation and industrial modernisation.</p>
+    <a href="call.html" class="call">
+      <img src="images/svg/objectives_icon.svg" alt="" class="call__image" />
+      <span class="call__label">Objectives</span>
+    </a>
+    <a href="call.html" class="call">
+      <img src="images/svg/key_dates_icon.svg" alt="" class="call__image" />
+      <span class="call__label">Key dates</span>
+    </a>
+    <a href="call.html" class="call">
+      <img src="images/svg/audience_icon.svg" alt="" class="call__image" />
+      <span class="call__label">Target audience</span>
+    </a>
+    <div class="clearfix">
+      <a href="call.html" class="btn">More</a>
+    </div>
+  </div>
+</div>
+
+<div id="contact_form" class="layout-apply">
+  <div class="layout-apply__container container">
+    <h2 class="layout-apply__title">Sign up to find out more about how to apply</h2>
+    <div class="layout-apply__form">
+      <form action="" class="form">
+        <div class="form__item">
+          <label class="form__label" for="name">Name</label>
+          <input class="form__input" name="name" type="text" placeholder="Type your name" />
+        </div>
+        <div class="form__item">
+          <label class="form__label" for="name">E-mail</label>
+          <input class="form__input" name="name" type="email" placeholder="Type your email addres" />
+        </div>
+        <div class="form__item">
+          <label class="form__label" for="message">Message</label>
+          <textarea class="form__input" name="message" rows="6" placeholder="Type your email message"></textarea>
+        </div>
+        <div class="form__actions">
+          <button type="submit" class="btn btn--success">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="layout-events">
+  <div class="container">
+    <h2>Events</h2>
+    <h3>Upcoming events and webinars to support you through the application process</h3>
+  </div>
+  <!-- .container ends here before a event items. It is not a mistake! -->
+  <div class="clearfix">
+    <a href="events.html" class="event-item">
+      <img src="https://placeimg.com/343/180/tech" alt="" class="event-item__image" />
+      <div class="event-item__content">
+        <div class="event-item__state">Upcoming Event</div>
+        <h3 class="event-item__title">Title, name of the event or  the webinar</h3>
+        <div class="event-item__field">
+          <div class="event-item__field-label">Location</div>
+          <div class="event-item__field-content">Warsaw, Poland</div>
+        </div>
+        <div class="event-item__field">
+          <div class="event-item__field-label">Date</div>
+          <div class="event-item__field-content">12 December 2017</div>
+        </div>
+        <div class="event-item__labels">
+          <span class="label">Webinar</span>
+        </div>
+      </div>
+    </a>
+    <a href="events.html" class="event-item">
+      <img src="https://placeimg.com/343/180/arch" alt="" class="event-item__image" />
+      <div class="event-item__content">
+        <div class="event-item__state">Upcoming Event</div>
+        <h3 class="event-item__title">Title, name of the event or  the webinar</h3>
+        <div class="event-item__field">
+          <div class="event-item__field-label">Location</div>
+          <div class="event-item__field-content">Warsaw, Poland</div>
+        </div>
+        <div class="event-item__field">
+          <div class="event-item__field-label">Date</div>
+          <div class="event-item__field-content">12 December 2017</div>
+        </div>
+        <div class="event-item__labels">
+          <span class="label">Webinar</span>
+        </div>
+      </div>
+    </a>
+    <a href="events.html" class="event-item">
+      <img src="https://placeimg.com/343/180/tech" alt="" class="event-item__image" />
+      <div class="event-item__content">
+        <div class="event-item__state">Upcoming Event</div>
+        <h3 class="event-item__title">Title, name of the event or  the webinar</h3>
+        <div class="event-item__field">
+          <div class="event-item__field-label">Location</div>
+          <div class="event-item__field-content">Warsaw, Poland</div>
+        </div>
+        <div class="event-item__field">
+          <div class="event-item__field-label">Date</div>
+          <div class="event-item__field-content">12 December 2017</div>
+        </div>
+        <div class="event-item__labels">
+          <span class="label">Webinar</span>
+        </div>
+      </div>
+    </a>
+  </div>
+  <a href="events.html" class="btn">More</a>
+</div>
+
+<!-- <div class="layout-blueprints">
+  <div class="container">
+    <h2>Blueprints for cities and regions</h2>
+    <h3>See the 13 case studies of smart pioneering cities and regions that were able to create innovative ecosystems to restore economic growth and improve the life of European citizens.</h3>
+  </div> -->
+  <!-- .container ends here before a city items. It is not a mistake! -->
+  <!-- <div class="city-items">
+    <a href="#" class="city-items__item" style="background-image: url('https://placeimg.com/480/455/arch')">
+      <div class="city-items__item-wrapper">
+        <h3 class="city-items__item-name">Amsterdam</h3>
+      </div>
+    </a>
+    <a href="#" class="city-items__item" style="background-image: url('https://placeimg.com/480/455/arch/1')">
+      <div class="city-items__item-wrapper">
+        <h3 class="city-items__item-name">Barcelona</h3>
+      </div>
+    </a>
+    <a href="#" class="city-items__item" style="background-image: url('https://placeimg.com/480/455/arch/2')">
+      <div class="city-items__item-wrapper">
+        <h3 class="city-items__item-name">Bilbao</h3>
+      </div>
+    </a>
+  </div>
+  <a href="blueprint.html" class="btn">More</a>
+</div> -->
+
+<div class="layout-library">
+  <div class="container">
+    <h2>Digital Library</h2>
+    <h3>Download reports and studies on digital transformation in Europe</h3>
+  </div>
+  <!-- .container ends here before a library items. It is not a mistake! -->
+  <div class="library-items">
+    <a href="digital-library.html" class="library-items__item library-items__item--darker">
+      <h3 class="library-items__item-title">Blueprint</h3>
+      <div class="library-items__item-description">for cities and regions as launch-pads for digital transformation </div>
+    </a>
+    <a href="digital-library.html" class="library-items__item">
+      <h3 class="library-items__item-title">Blueprint</h3>
+      <div class="library-items__item-description">for cities and regions - case studies</div>
+    </a>
+    <a href="digital-library.html" class="library-items__item library-items__item--dark">
+      <h3 class="library-items__item-title">Accelerating</h3>
+      <div class="library-items__item-description">the digital transformation of European industry and enterprises</div>
+    </a>
+    <a href="digital-library.html" class="library-items__item">
+      <h3 class="library-items__item-title">Big data</h3>
+      <div class="library-items__item-description">and B2B digital platforms: the next frontier for Europe’s industry and enterprises</div>
+    </a>
+  </div>
+  <a href="digital-library.html" class="btn">More</a>
+</div>
+
+<div class="designs designs--index"></div>
+
+<footer class="layout-footer">
+  <div class="layout-footer__container container">
+    <div class="layout-footer__menu">
+      <nav class="nav-horizontal">
+        <a class="nav-horizontal__link" href="#">About</a>
+        <a class="nav-horizontal__link" href="#">Call for Expressions  of Interest</a>
+        <a class="nav-horizontal__link" href="#">Events</a>
+        <!-- <a class="nav-horizontal__link" href="#">Blueprint</a> -->
+        <a class="nav-horizontal__link" href="#">Digital library</a>
+      </nav>
+    </div>
+    <div class="layout-footer__user">
+      <nav class="nav-user">
+        <a class="nav-user__link" href="#">Login</a>
+        <a class="nav-user__link" href="#">Register</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+    <script src="js/design-toggler.js"></script>
+    <!-- Carousel scripts -->
+    <script
+        src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/assets/owl.carousel.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/owl.carousel.min.js"></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        items: 1,
+        autoPlay: true,
+        nav: false
+      });
+    </script>
+    <!-- End of Carousel scripts -->
+  </body>
+</html>
