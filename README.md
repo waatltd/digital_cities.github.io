@@ -3,9 +3,3 @@ like images and fonts. Do not edit HTML or CSS there because they become
 overriden on next run of `fronthack watch` command. The directory is ready to
 hosting on production server. It stores all assets and compiled code that is
 needed to browse HTML pages located inside.
-
-
-
-Repository was created only to temporary host the website.
-
-THIS IS NOT THE MAIN REPOSOTORY OF THIS PROJECT
