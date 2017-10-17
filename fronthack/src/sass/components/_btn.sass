@@ -1,0 +1,70 @@
+// Button
+//
+// Button in various color and size versions.
+
+
+// Block
+// --------------------------------------------------
+.btn
+  background: transparent
+  padding: 13px 20px
+  font-family: $font-family-base
+  font-weight: $black
+  font-size: 14px
+  border: 3px solid
+  border-radius: 8px
+  white-space: nowrap
+  cursor: pointer
+  display: inline-block
+  width: auto
+  height: auto
+  line-height: normal
+  box-sizing: border-box
+  min-width: 170px
+  text-align: center
+  +btn-color($bluegrey)
+  &:hover, &:focus
+    transition: color 250ms, border-color 250ms, background 250ms
+    text-decoration: none
+    +btn-color(#fff, $bluegrey, $bluegrey)
+
+.btn + .btn
+  margin-left: 15px
+
+
+// Modifiers
+// --------------------------------------------------
+.btn--block
+  width: 100%
+  display: block
+  max-width: none
+  text-align: center
+  & + &
+    margin: 25px 0 0
+
+.btn--primary
+  +btn-color($brand-primary, $brand-primary)
+  &:hover, &:focus
+    +btn-color(#fff, $brand-primary, $brand-primary)
+
+.btn--pri-full
+  +btn-color(#fff, $brand-primary, $brand-primary)
+  padding-left: 70px
+  padding-right: 70px
+  &:hover, &:focus
+    +btn-color($brand-primary, $brand-primary)
+
+.btn--white
+  +btn-color(#fff, #fff)
+  &:hover, &:focus
+    +btn-color($brand-primary, #fff, #fff)
+    font-weight: $bold
+
+.btn--success
+  +btn-color($green, $green)
+  &:hover, &:focus
+    +btn-color(#fff, $green, $green)
+
+.btn--disabled
+  opacity: 0.15
+  cursor: not-allowed

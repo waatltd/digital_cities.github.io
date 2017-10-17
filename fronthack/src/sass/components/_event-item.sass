@@ -1,0 +1,66 @@
+// Event item
+//
+// List item in events section.
+
+
+// Block
+// --------------------------------------------------
+.event-item
+  margin: 30px 13px 0px
+  display: inline-block
+  text-align: left
+  max-width: 343px
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.05)
+  +breakpoint(tablet)
+    margin-top: 50px
+  &:last-of-type
+    margin-bottom: 60px
+
+
+
+// Elements
+// --------------------------------------------------
+.event-item__image
+  width: 100%
+
+.event-item__content
+  padding: 25px
+  background-color: #fff
+  color: $slate
+
+.event-item__state
+  font-weight: $black
+  font-size: $font-size-xsmall
+  letter-spacing: 1px
+  margin-bottom: 11px
+  text-transform: uppercase
+  line-height: normal
+
+.event-item__title
+  color: $slate
+  font-weight: $bold
+  margin-bottom: 25px
+  line-height: normal
+
+.event-item__field
+  margin-bottom: 15px
+
+.event-item__field-label
+  font-weight: $black
+  font-size: $font-size-xsmall
+  line-height: normal
+  text-transform: uppercase
+
+.event-item__field-content
+  font-size: $font-size-small
+
+.event-item__labels
+  margin-top: -5px
+
+
+.event-item:hover
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.05)
+  .event-item__content
+    background-color: darken(#fff, 0.75%)
+  .event-item__image
+    filter: brightness(92%)

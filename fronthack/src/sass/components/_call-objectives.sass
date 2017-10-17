@@ -1,0 +1,30 @@
+// Call objectives
+//
+// List of objectives on a Call page.
+
+
+// Block
+// --------------------------------------------------
+.call-objectives
+  margin-top: 35px
+  +breakpoint(tablet)
+    margin-top: 70px
+    +clearfix
+
+
+// Elements
+// --------------------------------------------------
+.call-objectives__item
+  background-color: #fff
+  padding: 32px 50px
+  box-sizing: border-box
+  margin-bottom: 33px
+  line-height: 30px
+  +breakpoint(tablet)
+    float: left
+    width: calc(50% - 26px)
+    height: 280px
+    &:nth-child(even)
+      margin-left: 52px
+  +breakpoint(desktop)
+    height: 200px

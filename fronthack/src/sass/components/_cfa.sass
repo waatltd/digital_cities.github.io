@@ -1,0 +1,74 @@
+// Cfa
+//
+// Primary call for action
+
+
+// Block
+// --------------------------------------------------
+.cfa
+  text-align: center
+  background:
+    color: #0c1c33
+    image: url('../images/jpg/header-bg.jpg')
+    repeat: no-repeat
+    size: cover
+    position: bottom
+  padding: 50px 0 91px
+  line-height: normal
+  +breakpoint(tablet)
+    padding: 116px 0 91px
+  &, & *
+    color: #fff
+
+// Elements
+// --------------------------------------------------
+.cfa__header
+  font-size: 50px
+  font-weight: $black
+  margin: 0 0 10px
+  +breakpoint(tablet)
+    font-size: 70px
+
+.cfa__header-pre
+  font-size: 24px
+  display: block
+  +breakpoint(tablet)
+    font-size: 36px
+
+.cfa__after-header
+  font-size: 18px
+  font-weight: $bold
+  line-height: 26px
+  margin: 0 auto 85px
+  max-width: 890px
+  +breakpoint(tablet)
+    font-size: 26px
+    line-height: 36px
+    margin-bottom: 113px
+
+.cfa__description
+  font-weight: $bold
+  margin: 0 auto 45px
+  max-width: 890px
+  font-size: 18px
+  line-height: 26px
+  +breakpoint(tablet)
+    font-size: 24px
+    line-height: 36px
+
+.cfa__btn
+  display: block
+  max-width: 430px
+  border-top: 12px solid transparent
+  border-bottom: 12px solid $ocean-green
+  margin: 0 auto
+  padding: 6px 10px
+  box-sizing: border-box
+  font-size: 18px
+  font-weight: $black
+  +breakpoint(tablet)
+    font-size: 24px
+  &:hover
+    background-color: $ocean-green
+    border-color: $ocean-green
+    color: white

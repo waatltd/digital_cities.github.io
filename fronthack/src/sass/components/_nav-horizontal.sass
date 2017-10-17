@@ -1,0 +1,30 @@
+// Horizontal navigation
+//
+// Inline navigation used for example for footer links
+
+
+// Block
+// --------------------------------------------------
+.nav-horizontal
+  font-size: 12px
+  font-weight: $bold
+  line-height: normal
+  display: inline-flex
+  align-items: center
+
+// Elements
+// --------------------------------------------------
+.nav-horizontal__link
+  display: inline-block
+  margin-right: 20px
+  padding: 15px 0
+  color: #000
+  max-width: 140px
+  text-align: center
+  &:last-child
+    margin-right: 0
+  +breakpoint(desktop)
+    padding: 26px 19px 0
+    margin: 0
+  &:hover
+    opacity: 0.8

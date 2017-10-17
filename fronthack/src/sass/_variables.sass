@@ -1,0 +1,110 @@
+//
+// Bootstrap variables
+// --------------------------------------------------
+
+//== Colors
+//
+//## Global colors definitions.
+
+//** Gray scale declarations
+$greyish-brown: #595959
+$slate: #52666d
+$bluegrey: #80a2ae
+$bluegrey-two: #809eae
+$bluey-grey: #9cadb6
+$cloudy-blue: #b0c1cd
+$cloudy-blue-two: #c9d9df
+$light-blue-grey: #d9e4eb
+$pale-grey: #edf3f7
+$pale-grey-two: #f5f9fb
+$ghost-white: #f5f9fb
+$warm-grey: #7f7f7f
+
+//** Color declarations
+$ocean-green: #339975
+$dark-sky-blue: #3d81d9
+$green: #46b48d
+$yellow: #ffd429
+$red: #e50038
+$red-box: #EA5253
+// Define new colors here: $blue, $orange, $dark-blue etc.
+
+//** Primary brand colors assigment
+$brand-primary: $dark-sky-blue
+// $brand-primary-light: $turquoise-light
+
+//** Global styles color assigment
+$body-bg:          white
+$text-color:       $greyish-brown
+$link-color:       $greyish-brown
+$link-color-hover: lighten($link-color, 15%)
+
+
+//== Typography
+//
+//## Font, line-height, headings, and more.
+
+// Font families
+$font-family-serif: Georgia, "Times New Roman", Times, serif
+$font-family-sans-serif: 'Lato', sans-serif
+$font-family-base: $font-family-sans-serif
+$font-family-headings: $font-family-sans-serif
+
+// Font sizes
+$font-size-xsmall: 10px
+$font-size-small: 14px
+$font-size-base: 18px
+$font-size-large: 24px
+
+$font-size-h1: 100px
+$font-size-h2: 36px
+$font-size-h3: 18px
+$font-size-h4: 16px
+
+// Line height and bottom margin
+$line-height-base: 26px
+$paragraphs-margin: 36px
+
+// Font weights
+$thin: 200
+$regular: 500
+$bold: 700
+$black: 900
+
+//== Media queries and breakpoints
+//
+//## Define the breakpoints at which your layout will change, adapting to different screen sizes.
+
+// Extra small screen / phone
+$screen-xs-min:              0
+// Small screen / tablet
+$screen-sm-min:              48em
+// Medium screen / desktop
+$screen-md-min:              62em
+// Large screen / wide desktop
+$screen-lg-min:              75em
+
+// So media queries don't overlap when required, provide a maximum
+$screen-xs-max:              ($screen-sm-min - 1)
+$screen-sm-max:              ($screen-md-min - 1)
+$screen-md-max:              ($screen-lg-min - 1)
+
+
+//== Page container
+//
+//## Configuration of a wrapping container
+
+// Sidepaddings of a container on mobile devices
+$container-paddings: 15px
+// Maximum width of the container
+$container-max-width: 1080px
+
+
+//== Configuration for built in Flexbox Grid
+//
+//## https://github.com/hugeinc/flexboxgrid-sass#use
+
+// Set the gutter between columns
+$gutter-width: 30px
+// Apply breakpoints configuration to Flexbox
+$breakpoints: sm $screen-sm-min 46rem, md $screen-md-min 61rem, lg $screen-lg-min 71rem

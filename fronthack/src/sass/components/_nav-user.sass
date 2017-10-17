@@ -1,0 +1,36 @@
+// Nav user
+//
+// User navigation.
+
+
+// Block
+// --------------------------------------------------
+.nav-user
+  font-size: 12px
+  font-weight: $black
+  line-height: normal
+  text-transform: uppercase
+
+// Elements
+// --------------------------------------------------
+.nav-user__link
+  display: inline-block
+  padding: 10px 0
+  & + &
+    padding-left: 5px
+    +breakpoint(tablet)
+      padding-left: 25px
+
+.nav-user__disclaimer
+  width: 400px
+
+// Modifiers
+// --------------------------------------------------
+.is-highlighted
+  color: $dark-sky-blue
+
+.nav-user__link
+  &.is-active,
+  &:hover,
+  &:focus
+    opacity: 0.8

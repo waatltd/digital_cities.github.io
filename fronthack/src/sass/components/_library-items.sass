@@ -1,0 +1,51 @@
+// Library items
+//
+// List items in library section.
+
+
+// Block
+// --------------------------------------------------
+.library-items
+  width: 100%
+  margin: 35px 0
+  +breakpoint(desktop)
+    display: flex
+    margin: 65px 0 75px
+
+// Elements
+// --------------------------------------------------
+.library-items__item
+  flex-grow: 1
+  flex: 1
+  height: 200px
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  color: #fff
+  background-color: $cloudy-blue
+  padding: 30px
+  box-sizing: border-box
+  &:hover
+    filter: brightness(90%)
+    color: #fff
+  +breakpoint(desktop)
+    height: 309px
+    padding: 55px 30px 30px
+
+.library-items__item-title
+  font-size: 32px
+  font-weight: $black
+  line-height: normal
+  color: #fff
+
+.library-items__item-description
+  max-width: 100%
+
+// Modifiers
+// --------------------------------------------------
+.library-items__item--dark
+  background-color: #a7b9c6
+
+.library-items__item--darker
+  background-color: #92a8b9

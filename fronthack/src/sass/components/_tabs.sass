@@ -1,0 +1,31 @@
+// Tabs
+//
+// Anchor link tabs.
+
+
+// Block
+// --------------------------------------------------
+.tabs
+  background-color: $dark-sky-blue
+  text-align: center
+  font-size: 12px
+  font-weight: $bold
+  line-height: normal
+  margin-bottom: -21px
+  position: relative
+  z-index: 1
+
+
+// Block
+// --------------------------------------------------
+.tabs__link
+  display: inline-block
+  color: white
+  padding: 14px 20px
+  white-space: nowrap
+  &:hover
+    color: white
+    background-color: lighten($dark-sky-blue, 4%)
+  +breakpoint(tablet)
+    & + &
+      margin-left: 30px
